@@ -1,4 +1,6 @@
-WIN_COMBINATIONS = [
+class TicTacToe
+  
+  WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
   [6,7,8],
@@ -120,4 +122,5 @@ def play(board)
 # else if the game was a draw
 #   tell the players it has been a draw
 # end
+end
 end
